@@ -5,7 +5,7 @@
         <title>Text-Editor</title>
         
         
-        </script>
+        
     </head>
     <body>
         <div name="fullbody" class="fullbody">
