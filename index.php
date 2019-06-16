@@ -29,7 +29,7 @@
                 </div>
                 <div name="searchtool" id="searchtool">
                     <form action="" method="POST">
-                    <input type="text" name="searchbar" id="searchbar">
+                    <input type="text" name="searchbar" id="searchbar" placeholder="Search for item...">
                     
                 </form>
                 </div>
