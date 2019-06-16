@@ -8,6 +8,19 @@
         
     </head>
     <body>
+        <div id="links">
+          </div>
+        <div class="headerdiv">
+            <div id="logoleft">
+                <img src="logosmall.png">
+            </div>
+            <div name="searchtool" id="searchtool">
+                    <form action="" method="POST">
+                    <input type="text" name="searchbar" id="searchbar" placeholder="Search for item..." style="float:left;">
+                    
+                </form>
+                </div>
+        </div>
         <div name="fullbody" class="fullbody">
             <div name="topthree" class="topthree">
                 <div name="nav" id="nav">
@@ -27,14 +40,10 @@
                     <button onclick="p_tag()" id="k">k</button>
                     <button onclick="p_tag()" id="l">l</button>
                 </div>
-                <div name="searchtool" id="searchtool">
-                    <form action="" method="POST">
-                    <input type="text" name="searchbar" id="searchbar" placeholder="Search for item...">
-                    
-                </form>
-                </div>
+                
             </div>
             <div name="workplace" id="textcode">
+            <strong style="font-size:25px;font-variant:small-caps;">Add Post</strong>
                 <form action="" method="POST">
                 <textarea name="editor" id="editor" autofocus></textarea>
                 <button type="submit" name="create" id="create">Create</button>
@@ -42,6 +51,7 @@
             </div>
             <script src="myscript.js"></script>
         </div>
+        
         
     </body>
 
