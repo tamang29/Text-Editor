@@ -1,17 +1,23 @@
+body{
+    background-color: grey;
+    margin: 0;
+}
 /* overall container*/
 .fullbody{
+    margin:0px auto;
     
-    height: auto;
-    width: 100%;
-    border:1px solid black;
-    
+    height: 150%;
+    width: 80%;
+    box-shadow: 4px 8px rgb(70, 68, 68);
+    background-color: mintcream;   
 }
 /* top three div with navigation menu onclick buttons and a search bar to the right*/
 .topthree{
     float: left;
-    border:1px solid black;
+
     width: 100%;
-    height: 20%;   
+    height: 15%;   
+    background-color: silver;
 }
 /* left nav menu*/
 #nav{
@@ -33,12 +39,13 @@
     height: 70%;
     width: 70%;
     margin: 50px 50px;
+
 }
 /*textarea*/
 
 textarea{
     float: left;
-    height: 100%;
+    height: 80%;
     width: 100%;
     padding:10px 10px;
 }
@@ -77,10 +84,56 @@ textarea{
     background-color: red;
     color: white;
     transition:background .5s ease-in,color .5s ease-out;
-    border-radius: 10px;
+    
+    
 }
 #icons button{
     height: 30px;
     width: 50px;
-    margin: 40px 0px;
+    margin: 40px 0px;cursor: pointer;
+    border-radius: 1px;
+    border: none;
+    background-color: rgb(230, 240, 235);
+}
+#icons button:hover{
+    border:1px solid black;
+    font-weight: 700;
+    background-color: rgb(94, 87, 87);
+    color: white;
+    transition:background .5s ease-in,color .5s ease-out;
+}
+
+.headerdiv{
+    float: left;
+    background-color: grey;
+    height: 17%;
+    width: 100%;
+}
+#logoleft{
+    float: left;
+    width: 70%;
+    height: 100%;background-color: rgb(95, 91, 91);
+    
+    
+}
+#logoleft img{
+    float: left;
+    margin:10px 10px;
+    height: 70%;
+    width: 15%;
+}
+#searchtool{
+    float: left;
+    width: 30%;
+    height: 100%;
+    background:rgb(95, 91, 91);
+    
+
+}
+
+#links{
+    float: left;
+    height: 5%;
+    width: 100%;
+    background-color: rgb(65, 55, 55);
 }
